@@ -4,3 +4,5 @@ import socket
 ##we are creating a socket object 
 ##socket(socket family type: AF_INIT corresponds to ipv4, type of socket: SOCK_STREAM [streaming socket tcp] )
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((socket.gethostname(), 1234))
+
