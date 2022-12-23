@@ -16,7 +16,7 @@ msg = s.recv(1024) # this is our buffer size
 #why do we need to buffer data, because if we 
 full_msg = "hello"
 while True:
-    full_msg = b'' #bytes msg?
+    full_msg = b"" #bytes msg?
     new_msg = True
     while True:
         
